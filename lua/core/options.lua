@@ -21,7 +21,7 @@ local function load_options()
 		completeopt = "menuone,noselect,popup",
 		concealcursor = "niv",
 		conceallevel = 0,
-		cursorcolumn = true,
+		cursorcolumn = false,
 		cursorline = true,
 		diffopt = "filler,iwhite,internal,linematch:60,algorithm:patience",
 		display = "lastline",
