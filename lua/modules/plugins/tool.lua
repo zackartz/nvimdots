@@ -1,8 +1,8 @@
 local tool = {}
 
-tool["tpope/vim-fugitive"] = {
+tool["NeogitOrg/neogit"] = {
 	lazy = true,
-	cmd = { "Git", "G" },
+	cmd = { "Neogit", "G" },
 }
 -- This is specifically for fcitx5 users who code in languages other than English
 -- tool["pysan3/fcitx5.nvim"] = {
