@@ -23,7 +23,7 @@ tool["oysandvik94/curl.nvim"] = {
 	cmd = { "CurlOpen" },
 	dependencies = {
 		"nvim-lua/plenary.nvim",
-	}
+	},
 	config = true,
 }
 tool["nvim-tree/nvim-tree.lua"] = {
