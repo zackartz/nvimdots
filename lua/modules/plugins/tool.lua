@@ -19,6 +19,13 @@ tool["Bekaboo/dropbar.nvim"] = {
 		"nvim-telescope/telescope-fzf-native.nvim",
 	},
 }
+tool["oysandvik94/curl.nvim"] = {
+	cmd = { "CurlOpen" },
+	dependencies = {
+		"nvim-lua/plenary.nvim",
+	}
+	config = true,
+}
 tool["nvim-tree/nvim-tree.lua"] = {
 	lazy = true,
 	cmd = {
